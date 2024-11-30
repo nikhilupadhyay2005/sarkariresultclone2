@@ -1,0 +1,38 @@
+
+.animation{
+    height:70px;
+    width:10%;
+    background-color:red;
+    animation-name: box;
+    animation-duration: 10s;
+    position: absolute;
+  
+
+
+}
+
+@keyframes box{
+    0%
+    {  
+        top:0;
+        left:0;
+    }
+   25%{
+    top:0;
+    left: 80%;
+   }
+   50%{
+    top:400px;
+    left:80%;
+   }
+   75%{
+    top:400px;
+    left:0;
+   }
+   100%
+   {  
+       top:0;
+       left:0;
+   }
+    
+}
